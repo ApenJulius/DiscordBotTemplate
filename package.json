@@ -1,0 +1,15 @@
+{
+  "main": "./src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-start": "nodemon ./src/bot.js",
+    "start": "node ./src/bot.js",
+    "deploy": "node ./src/deploycommands.js",
+    "deploy-global": "node ./src/deployGlobalCommands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.21"
+  }
+}
