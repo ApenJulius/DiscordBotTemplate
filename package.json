@@ -3,6 +3,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-start": "nodemon ./src/bot.js",
+    "start": "node ./src/bot.js",
     "deploy": "node ./src/deploycommands.js",
     "deploy-global": "node ./src/deployGlobalCommands.js"
   },
