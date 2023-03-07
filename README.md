@@ -6,13 +6,13 @@ This is a basic template for Discord.js created to streamline development and fo
 #### For navigating discord.js docs, use:
 https://discord.js.org/#/docs/discord.js/main/general/welcome
 
-#### If you need explenations of each part, use:
+#### If you need explanations of each part, use:
 https://discordjs.guide/#before-you-begin
 ## Quickstart 
 
 1. Download this project
 2. Run `npm i` in VSCode terminal
-3. Go to your `.env` file and create corretions
+3. Go to your `.env` file and create corrections
 ```bash
 BOT_TOKEN = "YOUR_BOT_TOKEN"
 clientId = "YOUR_BOT_ID"
@@ -44,3 +44,4 @@ To deploy application commands ( / ) globally, run the following command:
 ```bash
   npm run deploy-global
 ```
+
