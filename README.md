@@ -19,7 +19,7 @@ clientId = "YOUR_BOT_ID"
 guildId = "YOUR_DISCORD_SERVER_ID"
 ```
 4. Run `npm run dev-start` in VSCode (Please remember to click `ctrl+c` in terminal to end your bot)
-5. Write your code!
+5. Write your code! AND REMEMBER TO SAVE WITH `shift+s`. Pro tip: VSCode will display a circle on files that are NOT saved
 ## Scripts
 
 To run tests, run the following command
