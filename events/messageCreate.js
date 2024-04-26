@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 
 module.exports = {
     name: 'messageCreate',
@@ -8,6 +8,6 @@ module.exports = {
         
         
         // do your stuff
-        await message.reply("fixed")
+        await message.reply("Hello!")
     }
 };
