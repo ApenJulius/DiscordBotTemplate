@@ -45,12 +45,4 @@ for (const file of eventFiles) { //Takes every event file and registers it with 
 
 
 
-bot.on("ready", async () => {
-    console.log(`>>>>${bot.user.username} has logged in`)
-})
-
-
-
-
-
 bot.login(process.env.BOT_TOKEN); // Logs in with bot token from .env. This can also be a string with token, however thats not secure.
